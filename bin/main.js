@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+// SHABANG
 import inquirer from 'inquirer';
 // todos array
 // function
@@ -20,5 +22,7 @@ while (condition) {
     ]);
     todos.push(todoQuestions.firstQuestion);
     console.log(todos);
+    // Loop is running based on the below condition
     condition = (todoQuestions.secondQuestion);
 }
+//Home Work Read, update, delete and add features to be added in the to do list
